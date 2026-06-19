@@ -1,19 +1,5 @@
 [
   {
-    "id": "oxford",
-    "name": "The Florence Wholecut Oxford",
-    "category": "Shoes",
-    "price": 9000,
-    "images": [
-      "/assets/images/wholecut_oxford.png"
-    ],
-    "description": "Sculpted from a single flawless piece of full‑grain calfskin. Hand‑burnished to create a deep, layered patina that matures with character.",
-    "specs": [
-      "Single Piece Leather Cut",
-      "Closed Channel Goodyear Welt"
-    ]
-  },
-  {
     "id": "travelbag",
     "name": "The Voyager Leather Duffle",
     "category": "Travel Bag",

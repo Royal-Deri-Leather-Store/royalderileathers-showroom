@@ -1,19 +1,5 @@
 [
   {
-    "id": "travelbag",
-    "name": "The Voyager Leather Duffle",
-    "category": "Travel Bag",
-    "price": 18000,
-    "images": [
-      "/assets/images/leather_travel_bag.png"
-    ],
-    "description": "Crafted for the modern wanderer. Structured from vegetable‑tanned Italian leather with hand‑set brass rivets and a water‑resistant lining.",
-    "specs": [
-      "Full‑Grain Vegetable Leather",
-      "YKK Excella Solid Brass Zippers"
-    ]
-  },
-  {
     "id": "handbag",
     "name": "The Siena Designer Satchel",
     "category": "Ladies Hand Bag",

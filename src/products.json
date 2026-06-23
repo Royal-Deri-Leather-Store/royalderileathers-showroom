@@ -190,5 +190,19 @@
     "specs": [
       "Premium Crafted Leather"
     ]
+  },
+  {
+    "id": "test_prod_1782226547627",
+    "name": "Test Product from Script",
+    "category": "Shoes",
+    "price": 999,
+    "images": [
+      "/assets/images/wholecut_oxford.png"
+    ],
+    "description": "A temporary test product to verify the API write functionality.",
+    "rating": 5,
+    "specs": [
+      "Test Spec"
+    ]
   }
 ]

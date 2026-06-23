@@ -192,17 +192,684 @@
     ]
   },
   {
-    "id": "test_prod_1782226547627",
-    "name": "Test Product from Script",
+    "id": "prod_seeded_1782226997616_1",
+    "name": "Product Card Placeholder 1",
+    "category": "Ladies Hand Bag",
+    "price": 999,
+    "images": [
+      "/assets/images/lt black 3com 1.png",
+      "/assets/images/lt brown 1.png",
+      "/assets/images/hp olive red 1.png",
+      "/assets/images/lt d brown1.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997616_2",
+    "name": "Product Card Placeholder 2",
+    "category": "Travel Bag",
+    "price": 2999,
+    "images": [
+      "/assets/images/bgr4.png",
+      "/assets/images/lt black 3com 3.png",
+      "/assets/images/hp black 3com 2.png",
+      "/assets/images/lt brown 3.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997616_3",
+    "name": "Product Card Placeholder 3",
+    "category": "Ladies Hand Purse",
+    "price": 1850,
+    "images": [
+      "/assets/images/lt brown 1.png",
+      "/assets/images/bgr4.png",
+      "/assets/images/bgr3.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997616_4",
+    "name": "Product Card Placeholder 4",
+    "category": "Ladies Hand Bag",
+    "price": 2999,
+    "images": [
+      "/assets/images/gb black2.png",
+      "/assets/images/lt brown 1.png",
+      "/assets/images/lt black 3com 1.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997616_5",
+    "name": "Product Card Placeholder 5",
+    "category": "Men's Wallet",
+    "price": 2400,
+    "images": [
+      "/assets/images/hp red3.png",
+      "/assets/images/lt d brown1.png",
+      "/assets/images/tb w4.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997616_6",
+    "name": "Product Card Placeholder 6",
+    "category": "Ladies Hand Purse",
+    "price": 350,
+    "images": [
+      "/assets/images/hp olive red3.png",
+      "/assets/images/tb w4.png",
+      "/assets/images/hp black 3com 3.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997616_7",
+    "name": "Product Card Placeholder 7",
+    "category": "Ladies Hand Purse",
+    "price": 350,
+    "images": [
+      "/assets/images/tb w 1.png",
+      "/assets/images/hp tan3.png",
+      "/assets/images/gb brown1.png",
+      "/assets/images/bgr1.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997616_8",
+    "name": "Product Card Placeholder 8",
+    "category": "Ladies Hand Purse",
+    "price": 350,
+    "images": [
+      "/assets/images/gb brown2.png",
+      "/assets/images/gb black 1.png",
+      "/assets/images/lt olive red 1.png",
+      "/assets/images/hp tan1.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997616_9",
+    "name": "Product Card Placeholder 9",
+    "category": "Men's Wallet",
+    "price": 2999,
+    "images": [
+      "/assets/images/lt tan 3com 1.png",
+      "/assets/images/tb b1.png",
+      "/assets/images/lt tan 3com 2.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997616_10",
+    "name": "Product Card Placeholder 10",
+    "category": "Men's Belt",
+    "price": 1200,
+    "images": [
+      "/assets/images/lt olive red 2.png",
+      "/assets/images/hp black 2.png",
+      "/assets/images/hp olive red3.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997616_11",
+    "name": "Product Card Placeholder 11",
+    "category": "Shoes",
+    "price": 2999,
+    "images": [
+      "/assets/images/tb nlack plain 2.png",
+      "/assets/images/bgr3.png",
+      "/assets/images/tb b1.png",
+      "/assets/images/lt black 2.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997616_12",
+    "name": "Product Card Placeholder 12",
+    "category": "Men's Wallet",
+    "price": 2999,
+    "images": [
+      "/assets/images/mv s1.png",
+      "/assets/images/gb black2.png",
+      "/assets/images/lt d brown 2.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997617_13",
+    "name": "Product Card Placeholder 13",
+    "category": "Men's Belt",
+    "price": 1200,
+    "images": [
+      "/assets/images/lt d brown 3.png",
+      "/assets/images/lt black 3com 1.png",
+      "/assets/images/lt tan 1.png",
+      "/assets/images/tb flower 1.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997617_14",
+    "name": "Product Card Placeholder 14",
+    "category": "Men's Belt",
+    "price": 2999,
+    "images": [
+      "/assets/images/lt black 1.png",
+      "/assets/images/hp tan2.png",
+      "/assets/images/hp olive red 1.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997617_15",
+    "name": "Product Card Placeholder 15",
+    "category": "School Bag",
+    "price": 999,
+    "images": [
+      "/assets/images/gb brown2.png",
+      "/assets/images/lt brown 1.png",
+      "/assets/images/tb b2.png",
+      "/assets/images/gb brown1.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997617_16",
+    "name": "Product Card Placeholder 16",
+    "category": "Men's Belt",
+    "price": 1200,
+    "images": [
+      "/assets/images/hp tan1.png",
+      "/assets/images/lt olive red 1.png",
+      "/assets/images/lt olive red 2.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997617_17",
+    "name": "Product Card Placeholder 17",
+    "category": "Ladies Hand Bag",
+    "price": 2400,
+    "images": [
+      "/assets/images/hp red1.png",
+      "/assets/images/gb black2.png",
+      "/assets/images/hp red2.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997617_18",
+    "name": "Product Card Placeholder 18",
+    "category": "School Bag",
+    "price": 350,
+    "images": [
+      "/assets/images/lt brown 3.png",
+      "/assets/images/bgr1.png",
+      "/assets/images/bgr4.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997617_19",
+    "name": "Product Card Placeholder 19",
+    "category": "Ladies Hand Purse",
+    "price": 2400,
+    "images": [
+      "/assets/images/bgr1.png",
+      "/assets/images/tb flower 2.png",
+      "/assets/images/lt d brown1.png",
+      "/assets/images/lt brown 2.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997617_20",
+    "name": "Product Card Placeholder 20",
+    "category": "School Bag",
+    "price": 350,
+    "images": [
+      "/assets/images/gb black2.png",
+      "/assets/images/hp tan1.png",
+      "/assets/images/lt tan 3com 3.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997617_21",
+    "name": "Product Card Placeholder 21",
+    "category": "Travel Bag",
+    "price": 350,
+    "images": [
+      "/assets/images/gb black2.png",
+      "/assets/images/gb black 1.png",
+      "/assets/images/hp tan3.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997617_22",
+    "name": "Product Card Placeholder 22",
+    "category": "Travel Bag",
+    "price": 2400,
+    "images": [
+      "/assets/images/hp black 2.png",
+      "/assets/images/lt tan 3com 1.png",
+      "/assets/images/mv s2.png",
+      "/assets/images/mv n2.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997617_23",
+    "name": "Product Card Placeholder 23",
+    "category": "Men's Belt",
+    "price": 499,
+    "images": [
+      "/assets/images/bgr3.png",
+      "/assets/images/bgr1.png",
+      "/assets/images/mv n1.png",
+      "/assets/images/mv s1.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997617_24",
+    "name": "Product Card Placeholder 24",
+    "category": "Travel Bag",
+    "price": 1200,
+    "images": [
+      "/assets/images/bg2.png",
+      "/assets/images/hp black 3com 1.png",
+      "/assets/images/mv s1.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997617_25",
+    "name": "Product Card Placeholder 25",
+    "category": "College Bag",
+    "price": 2999,
+    "images": [
+      "/assets/images/bgr3.png",
+      "/assets/images/gb brown2.png",
+      "/assets/images/tb w2.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997617_26",
+    "name": "Product Card Placeholder 26",
     "category": "Shoes",
     "price": 999,
     "images": [
-      "/assets/images/wholecut_oxford.png"
+      "/assets/images/mv n2.png",
+      "/assets/images/hp tan3.png",
+      "/assets/images/lt black 3com 1.png"
     ],
-    "description": "A temporary test product to verify the API write functionality.",
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
     "rating": 5,
     "specs": [
-      "Test Spec"
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997617_27",
+    "name": "Product Card Placeholder 27",
+    "category": "College Bag",
+    "price": 350,
+    "images": [
+      "/assets/images/bg2.png",
+      "/assets/images/lt d brown 3.png",
+      "/assets/images/hp red3.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997617_28",
+    "name": "Product Card Placeholder 28",
+    "category": "Ladies Hand Purse",
+    "price": 1200,
+    "images": [
+      "/assets/images/tb w4.png",
+      "/assets/images/hp black 3com 3.png",
+      "/assets/images/lt d brown 2.png",
+      "/assets/images/bgr4.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997617_29",
+    "name": "Product Card Placeholder 29",
+    "category": "Ladies Hand Bag",
+    "price": 2999,
+    "images": [
+      "/assets/images/hp olive red3.png",
+      "/assets/images/mv s2.png",
+      "/assets/images/lt brown 3.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997617_30",
+    "name": "Product Card Placeholder 30",
+    "category": "College Bag",
+    "price": 1200,
+    "images": [
+      "/assets/images/tb w 1.png",
+      "/assets/images/lt tan 3com 1.png",
+      "/assets/images/lt d brown1.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997617_31",
+    "name": "Product Card Placeholder 31",
+    "category": "Shoes",
+    "price": 2400,
+    "images": [
+      "/assets/images/lt d brown1.png",
+      "/assets/images/lt tan 2.png",
+      "/assets/images/gb brown1.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997617_32",
+    "name": "Product Card Placeholder 32",
+    "category": "Ladies Hand Purse",
+    "price": 350,
+    "images": [
+      "/assets/images/hp red3.png",
+      "/assets/images/lt d brown 3.png",
+      "/assets/images/hp olive red 1.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997618_33",
+    "name": "Product Card Placeholder 33",
+    "category": "College Bag",
+    "price": 350,
+    "images": [
+      "/assets/images/mv s1.png",
+      "/assets/images/lt black 3com 3.png",
+      "/assets/images/lt olive red 3.png",
+      "/assets/images/lt tan 1.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997618_34",
+    "name": "Product Card Placeholder 34",
+    "category": "College Bag",
+    "price": 2400,
+    "images": [
+      "/assets/images/tb w 1.png",
+      "/assets/images/lt d brown 3.png",
+      "/assets/images/hp black 3com 2.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997618_35",
+    "name": "Product Card Placeholder 35",
+    "category": "Travel Bag",
+    "price": 2400,
+    "images": [
+      "/assets/images/lt olive red 2.png",
+      "/assets/images/gb brown1.png",
+      "/assets/images/tb black 1.png",
+      "/assets/images/hp black 3com 1.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997618_36",
+    "name": "Product Card Placeholder 36",
+    "category": "Men's Belt",
+    "price": 1200,
+    "images": [
+      "/assets/images/lt black 2.png",
+      "/assets/images/tb flower 2.png",
+      "/assets/images/lt d brown 2.png",
+      "/assets/images/tb w2.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
+    ]
+  },
+  {
+    "id": "prod_seeded_1782226997618_37",
+    "name": "Product Card Placeholder 37",
+    "category": "Travel Bag",
+    "price": 2999,
+    "images": [
+      "/assets/images/lt tan 3com 2.png",
+      "/assets/images/hp tan2.png",
+      "/assets/images/lt brown 1.png",
+      "/assets/images/bgr3.png"
+    ],
+    "description": "Premium leather crafted accessory. Hand-burnished edges, custom materials, and elegant stitching. You can edit this entire card, name, price, images, and features directly from the Admin Portal.",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather",
+      "Heavy Duty Stitching",
+      "Solid Brass Hardware"
     ]
   }
 ]

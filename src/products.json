@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "prod_1782224092767",
+    "name": "kwnglgkerk/le",
+    "category": "Shoes",
+    "price": 4254,
+    "images": [
+      "/assets/images/wholecut_oxford.png"
+    ],
+    "description": "fkbjwewefhlukWEHFKAWHTTOIQ3UT",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather"
+    ]
+  }
+]

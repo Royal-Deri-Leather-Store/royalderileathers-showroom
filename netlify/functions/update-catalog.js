@@ -72,12 +72,12 @@ export async function handler(event, context) {
 
     const getUrl = `https://api.github.com/repos/${repo}/contents/${filePath}?ref=${branch}`;
 
-    // 4. Fetch current file from GitHub Content API
+    // 4. Fetch metadata from GitHub Content API using Object media type (works for files up to 100 MB)
     const getRes = await fetch(getUrl, {
       method: 'GET',
       headers: {
         'Authorization': `token ${pat}`,
-        'Accept': 'application/vnd.github.v3+json',
+        'Accept': 'application/vnd.github.v3.object',
         'User-Agent': 'Netlify-Function'
       }
     });
@@ -88,7 +88,7 @@ export async function handler(event, context) {
         statusCode: 500,
         headers,
         body: JSON.stringify({
-          error: 'Failed to retrieve products.json from GitHub repository.',
+          error: 'Failed to retrieve products.json metadata from GitHub repository.',
           details: errMsg
         })
       };
@@ -96,11 +96,39 @@ export async function handler(event, context) {
 
     const getJson = await getRes.json();
     const fileSha = getJson.sha;
-    
-    // Decode base64 file content securely
-    const base64Content = getJson.content.replace(/\s/g, '');
-    const decodedText = Buffer.from(base64Content, 'base64').toString('utf-8');
-    let productsList = JSON.parse(decodedText);
+    let productsList;
+
+    // Decode content if it is embedded in the object response (typically files <= 1 MB)
+    if (getJson.content && getJson.encoding === 'base64') {
+      const base64Content = getJson.content.replace(/\s/g, '');
+      const decodedText = Buffer.from(base64Content, 'base64').toString('utf-8');
+      productsList = JSON.parse(decodedText);
+    } else {
+      // Fallback: File is > 1 MB. Fetch raw contents (works up to 100 MB)
+      const rawRes = await fetch(getUrl, {
+        method: 'GET',
+        headers: {
+          'Authorization': `token ${pat}`,
+          'Accept': 'application/vnd.github.v3.raw',
+          'User-Agent': 'Netlify-Function'
+        }
+      });
+
+      if (!rawRes.ok) {
+        const rawErrMsg = await rawRes.text();
+        return {
+          statusCode: 500,
+          headers,
+          body: JSON.stringify({
+            error: 'Failed to retrieve large products.json raw contents from GitHub repository.',
+            details: rawErrMsg
+          })
+        };
+      }
+
+      const rawText = await rawRes.text();
+      productsList = JSON.parse(rawText);
+    }
 
     // 5. Update catalog based on action
     let commitMessage = '';

@@ -60,12 +60,60 @@ export default function AdminPortal({ isOpen, onClose, onCatalogChange }) {
     setNewProduct({ ...newProduct, images: updated });
   };
 
-  // Handle file upload for a specific slot (convert to Base64 dataURL)
-  const handleImageFileUpload = (index, file) => {
-    if (file) {
+  // Helper utility for client-side image compression using HTML5 canvas
+  const compressImage = (file, maxWidth = 500, maxHeight = 500, quality = 0.6) => {
+    return new Promise((resolve, reject) => {
       const reader = new FileReader();
-      reader.onloadend = () => handleImageChange(index, reader.result);
       reader.readAsDataURL(file);
+      reader.onload = (event) => {
+        const img = new Image();
+        img.src = event.target.result;
+        img.onload = () => {
+          const canvas = document.createElement('canvas');
+          let width = img.width;
+          let height = img.height;
+
+          // Maintain aspect ratio
+          if (width > height) {
+            if (width > maxWidth) {
+              height = Math.round((height * maxWidth) / width);
+              width = maxWidth;
+            }
+          } else {
+            if (height > maxHeight) {
+              width = Math.round((width * maxHeight) / height);
+              height = maxHeight;
+            }
+          }
+
+          canvas.width = width;
+          canvas.height = height;
+
+          const ctx = canvas.getContext('2d');
+          ctx.drawImage(img, 0, 0, width, height);
+
+          // Convert to compressed JPEG data URL
+          const dataUrl = canvas.toDataURL('image/jpeg', quality);
+          resolve(dataUrl);
+        };
+        img.onerror = (err) => reject(err);
+      };
+      reader.onerror = (err) => reject(err);
+    });
+  };
+
+  // Handle file upload for a specific slot (convert to Base64 dataURL with compression)
+  const handleImageFileUpload = async (index, file) => {
+    if (file) {
+      try {
+        setStatusMessage('Compressing image on-the-fly to optimize catalog size...');
+        const compressedBase64 = await compressImage(file);
+        handleImageChange(index, compressedBase64);
+        setStatusMessage('⚡ Image compressed successfully! Size reduced.');
+        setTimeout(() => setStatusMessage(''), 3000);
+      } catch (err) {
+        alert('Image compression failed: ' + err.message);
+      }
     }
   };
 

@@ -204,5 +204,19 @@
     "specs": [
       "Test Spec"
     ]
+  },
+  {
+    "id": "prod_1782226619589",
+    "name": "wrjkrhg;3ht",
+    "category": "Shoes",
+    "price": 4783,
+    "images": [
+      "/assets/images/wholecut_oxford.png"
+    ],
+    "description": "flkaw/rkrfh;fh;fj3r",
+    "rating": 5,
+    "specs": [
+      "Premium Crafted Leather"
+    ]
   }
 ]
